@@ -1,0 +1,207 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#eaa141;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 100vw;
+    /* border: 3px solid black; */
+    position:sticky;
+    top: 0;
+    font-size: 40px;
+    border: 1px solid rgb(174, 153, 146);
+    box-sizing: content-box;
+    border: 1px solid black;
+
+    
+    
+ 
+    
+}
+#logo{
+    height:100%;
+    width: 80px;
+  
+}
+#logo_box{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+#search_Container{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#search_Container>input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#link{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+
+
+}
+ #link>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 28px;     
+    font-weight: bold;    
+    
+} 
+#SearchProduct{
+        height: 30px;
+        width: 250px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+
+}
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#link{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#link > a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.box{
+    display: flex;
+    height: 550px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px gray;
+    box-shadow: 1px black;
+    border: 1px solid black;
+}
+
+.leftbox {
+    width: 40%;
+    background-color: #f8c44a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0px 0px 40px;
+     border: 1px solid black;
+     border-spacing: 1px;
+}
+
+
+.leftbox > img{
+    height: 350px;
+   
+}
+
+.rightbox{
+    background-color:#eaa141;
+    width: 60%;
+    padding: 50px;
+    border-radius: 0px 40px 40px 0px;
+    border: 1px solid black;
+}
+
+.productTitle{
+    font-weight: bold;
+}
+
+#para ~ button{
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #f8c44a(227, 181, 81);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+#reviews{
+    height: 550px;
+    width: 80vw;
+    background-color: #f8c44a;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px gray;
+    padding: 30px;
+}
+
+#product ~ h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.reviewHead{
+    display: flex;
+
+}
+
+.reviewCard{
+    background-color: #eaa141 ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#newReview{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#newReview ~ button{
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #eaa141;
+    cursor: pointer;
+    box-shadow: 1px black;
+}
