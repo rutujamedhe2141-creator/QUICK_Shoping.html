@@ -219,3 +219,11 @@ span{
 #content-left>h1{
     color: aliceblue;
 }
+footer{
+   background-color:#eaa141;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 100vw;
+}
